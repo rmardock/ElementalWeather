@@ -1,0 +1,63 @@
+/* Shared stylesheet for Final Project */
+
+/*
+    References:
+*/
+/* ---Font Faces--- */
+
+@font-face {
+    font-family: noto-sans-sc, 'Noto Sans SC', sans-serif;
+
+    src: url(/Final-Project/fonts/NotoSansSC-Light.otf);
+}
+/* ---Element Selectors--- */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(212, 28, 28, 1), rgba(80, 18, 201, 1));
+    background-image: -webkit-linear-gradient(to bottom right, rgba(212, 28, 28, 1), rgba(80, 18, 201, 1));
+    color: #ffffff;
+    font-family: noto-sans-sc;
+    height: 100%;
+    overflow: hidden;
+}
+
+html {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ---Class Selectors--- */
+
+.darkmode {
+    background-color: #333333;
+    background-image: linear-gradient(to bottom right, #370d89, #080114);
+}
+
+.darkmodeFormWrapper {
+    background-color: rgba(85, 85, 85, 0.2);
+}
+
+.header {
+    padding: 15px;
+    text-align: center;
+}
+
+img.headerImage {
+    height: 64px;
+    width: 64px;
+    vertical-align: text-bottom;
+}
+
+/* ---Psuedo Class Selectors--- */
+
+a:hover {
+    color: #ffffff;
+}

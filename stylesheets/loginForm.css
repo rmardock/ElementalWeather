@@ -1,0 +1,13 @@
+/* Stylesheet for loginForm.php */
+
+/* ---Class Selectors--- */
+
+.switchFormWrapper {
+    margin-top: 15%;
+}
+
+/* ---ID Selectors--- */
+
+#loginHeader {
+    text-align: center;
+}

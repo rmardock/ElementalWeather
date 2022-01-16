@@ -1,0 +1,12 @@
+/* Stylesheet for accountSettings.php */
+
+/* ---ID Selectors--- */
+
+#homeLink {
+    width: 139px;
+}
+
+#settingsHeader {
+    background-color: rgba(80, 18, 201, 0.3);
+    margin-bottom: 10vh;
+}

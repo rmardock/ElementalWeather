@@ -1,0 +1,15 @@
+/* Shared stylesheet for loginForm.php and signupForm.php */
+
+/* ---Class Selectors--- */
+
+.formCloseButton {
+    font-size: 20pt;
+    float: right;
+    margin: 3%;
+    padding: 5px;
+    top: 0;
+}
+
+.input {
+    width: 140px;
+}

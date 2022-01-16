@@ -1,0 +1,19 @@
+/* Stylesheet for tutorial.html */
+
+/* ---ID Selectors--- */
+
+#homeButtonImage {
+    height: 64px;
+    margin-top: 5vh;
+    width: 64px;
+}
+
+#homeLink {
+    margin-left: 48%;
+    padding: 5px;
+}
+
+#video {
+    height: 55vh;
+    width: 65vh;
+}
